@@ -1,0 +1,13 @@
+@model ClothingItem
+@{
+    ViewData["Title"] = "Delete Item";
+}
+<div class="card p-4 shadow-sm">
+    <h1>Delete Item</h1>
+    <p>Are you sure you want to delete <strong>@Model.Name</strong>?</p>
+    <form asp-action="Delete" method="post">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger">Delete</button>
+        <a asp-action="Index" class="btn btn-outline-secondary">Cancel</a>
+    </form>
+</div>

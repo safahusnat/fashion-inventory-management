@@ -1,0 +1,4 @@
+body { background: #f7f7f8; }
+.hero { background: linear-gradient(135deg, #fff, #ececec); border: 1px solid #e2e2e2; }
+.stat { border: 0; border-radius: 1rem; }
+.table { background: white; border-radius: 1rem; overflow: hidden; }
