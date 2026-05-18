@@ -64,6 +64,20 @@ dotnet run
 
 The SQLite database is created automatically and seeded with demo fashion inventory items.
 
+## Application Screenshots
+
+### Dashboard
+![Dashboard](Dashboard.png)
+
+### Inventory Table
+![Inventory Table](InventoryTable.png)
+
+### Add New Product
+![Add Product](AddItem.png)
+
+### Low Stock Filtering
+![Low Stock](LowStock.png)
+
 ## Future Improvements
 
 - Add user login/authentication
